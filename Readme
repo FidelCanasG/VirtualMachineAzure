@@ -1,0 +1,69 @@
+<p align="center">
+<img width="1048" height="300" alt="image" src="https://github.com/user-attachments/assets/67bfab5e-2abf-499b-83dd-a963e3c0313c" />
+</p>
+
+<h1> Virtual Network (Azure)</h1>
+In this lab, youll work through a set of tasks that will show you how to set up a virtual network.
+setting up the recource group, virtual network and virtual machine. Completing this lab, you will gain hands-on experience in creating 
+and managing virtual networks in Azure
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Computer)
+
+<h2>Operating Systems Used </h2>
+
+- Windows 10 (21H2)
+
+<h2> Creating Virtual Machine Tasks </h2>
+
+- Task 1: Create a resource group
+- Task 2: Create Virtual Machine
+
+<h2> Task 1 </h2>
+
+
+-  In the Azure portal, search for Resource Group and Click Create
+<img width="1351" height="308" alt="image" src="https://github.com/user-attachments/assets/6cc1c2d4-6f06-4583-96df-01ab04b08b8d" />
+
+- Supscription: select Azure subscription 1
+- Resource group: Select Lab-test or your preferred Resource Group Name that would be that lab.
+- region select Canada Central
+- Then click Review + Create
+</p><img width="757" height="907" alt="image" src="https://github.com/user-attachments/assets/faf831e3-eed9-48c6-a946-cb3b778397a8" />
+
+
+<h2> Task 2 </h2>
+- Navigate to the Azure portal and search for `Virtual machines.` - Click `+ Create` and select `+ Azure virtual machine` from the dropdown list.
+<img width="718" height="820" alt="image" src="https://github.com/user-attachments/assets/8480dd08-878d-485e-813a-c6c89f26ff18" />
+<img width="757" height="656" alt="image" src="https://github.com/user-attachments/assets/01e0601c-f335-4a54-8336-83661a3badb3" />
+</p>
+
+- On the Basics tab of the Create virtual network blade, provide the following details:
+- Subscription: Select the Azure subscription for this lab.
+- Resource group: Click on Create new and enter the name Lab-test.
+- Name: Enter myVirtualM.
+- Region: Select Canada or a region that would be nearest to you
+<img width="1426" height="854" alt="image" src="https://github.com/user-attachments/assets/e5f4a831-9d66-4bfa-8d09-eab08db9c1f0" />
+
+- Scroll Down
+- Image: Choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen2
+- Size: Select Standard D2s v3
+- Username: Azureuser
+- Password: Use your personal password.
+- Confirm password: Retype your password.
+- Public inbound ports: Set it to 'None'
+- Would you like to use an existing Windows Server License: 'Leave selection unchecked`
+
+</p>
+<img width="940" height="815" alt="image" src="https://github.com/user-attachments/assets/9c4b043a-0499-4c96-b872-ec6cde7f23b6" />
+
+- "Next: Disks" and then Click "Next: Networking"
+-  Create new Virtual Network
+-  name it Lab2-Vnet
+-  Under "NIC network security group," choose None
+-  After that just click review + Create
+   <img width="763" height="842" alt="image" src="https://github.com/user-attachments/assets/7e206f45-1dc4-4c99-81c1-76212ef82584" />
+
+- Congradulation on creating a Virual Machine
+
